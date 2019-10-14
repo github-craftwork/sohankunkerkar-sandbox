@@ -7,4 +7,6 @@ jobs:
     steps:
     - name: hello-world
       run: |
-        echo "hello"
+        echo "hello $NAME"
+      env: 
+        NAME: sohan
